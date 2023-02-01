@@ -1,0 +1,39 @@
+:root {
+	--color-bg: #fafafa;
+	--color-primary-light: #d7ccc8;
+	--color-primary: #795548;
+	--color-primary-dark: #5d4037;
+	--color-accent: #69f0ae;
+	--color-text-icons: #fff;
+	--color-text: #212121;
+	--color-text-secondary: #737373;
+	--color-text-disabled: #9b9b9b;
+	--color-divider: #dbdbdb;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-color: var(--color-bg);
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
